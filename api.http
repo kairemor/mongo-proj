@@ -1,0 +1,181 @@
+POST https://mongo-node-drdhcj.turbo360-vertex.com/api/profile
+Content-Type: application/json
+
+{
+    "fname":"mor", 
+    "lname":"fall",
+    "team":"mano",
+    "position":"age",
+    "age":32
+}
+
+### 
+GET https://mongo-node-drdhcj.turbo360-vertex.com/api/profile
+
+###
+
+POST http://localhost:3000/api/repas
+Content-Type: application/json
+
+{
+    "day_number":6,
+    "day":"Samedi",
+    "repas": "Riz de poisson Sauce tomate",
+    "diner":"Poulet"
+}
+
+### 
+POST https://mongo-node-drdhcj.turbo360-vertex.com/api/repas
+Content-Type: application/json
+
+{
+    "day_number":6,
+    "day":"Samedi",
+    "repas": "Thiebou yapp blanc Soer",
+    "diner":"Poulet Roti Pommes ships"
+}
+###
+
+POST  http://localhost:3000/api/bde
+Content-Type: application/json
+
+{
+    "prenom":"mouhamed",
+    "nom":"tall",
+    "poste":"tresorier",
+    "numero":774542323,
+    "email":"agoraept@hotmail.fr"
+}
+
+### 
+GET  http://localhost:3000/api/bde?poste=president
+###
+
+POST  https://mongo-node-drdhcj.turbo360-vertex.com/api/bde
+Content-Type: application/json
+
+{
+    "prenom":"BDE",}
+    "nom":"BDE",
+    "poste":"BDE",
+    "numero":339511343,
+    "email":"agoraept@hotmail.fr"
+}
+
+###
+POST http://localhost:3000/api/basket 
+Content-Type: application/json
+
+{
+    "TOTAL": "137",
+    "Classement": "1",
+    "Joueur": "Amadou Touré"
+}
+
+###
+GET http://localhost:3000/api/basket
+
+###
+
+
+POST  https://mongo-node-drdhcj.turbo360-vertex.com/api/basket 
+Content-Type: application/json
+
+{
+    "TOTAL": "137",
+    "Classement": "1",
+    "Joueur": "Amadou Touré"
+}
+
+###
+
+POST  https://mongo-node-drdhcj.turbo360-vertex.com/api/basket 
+Content-Type: application/json
+
+{
+    "TOTAL": "123",
+    "Classement": "2",
+    "Joueur": "Mbaye Sène"
+}
+
+###
+POST  https://mongo-node-drdhcj.turbo360-vertex.com/api/basket 
+Content-Type: application/json
+
+{
+    "TOTAL": "70",
+    "Classement": "3",
+    "Joueur": "Papa Alioune Dia"
+}
+
+###
+POST  https://mongo-node-drdhcj.turbo360-vertex.com/api/basket 
+Content-Type: application/json
+
+{
+    "TOTAL": "58",
+    "Classement": "4",
+    "Joueur": "Alassane Dial Diop"
+}
+###
+POST  https://mongo-node-drdhcj.turbo360-vertex.com/api/basket 
+Content-Type: application/json
+
+{
+    "TOTAL": "49",
+    "Classement": "6",
+    "Joueur": "Mamadou Ndoye"
+}
+
+###
+POST  https://mongo-node-drdhcj.turbo360-vertex.com/api/basket 
+Content-Type: application/json
+
+{
+    "TOTAL": "50",
+    "Classement": "5",
+    "Joueur": "Omar Sakhaba Ndiaye"
+}
+
+###
+POST  https://mongo-node-drdhcj.turbo360-vertex.com/api/basket 
+Content-Type: application/json
+
+{
+    "TOTAL": "45",
+    "Classement": "7",
+    "Joueur": "Moustapha Seck"
+}
+
+###
+POST  https://mongo-node-drdhcj.turbo360-vertex.com/api/basket 
+Content-Type: application/json
+
+{
+    "TOTAL": "45",
+    "Classement": "8",
+    "Joueur": "Ibrahima Niang"
+}
+
+###
+POST  https://mongo-node-drdhcj.turbo360-vertex.com/api/basket 
+Content-Type: application/json
+
+{
+    "TOTAL": "39",
+    "Classement": "9",
+    "Joueur": "Cheikh Mbacke Wade"
+}
+
+###
+POST  https://mongo-node-drdhcj.turbo360-vertex.com/api/basket 
+Content-Type: application/json
+
+{
+    "TOTAL": "31",
+    "Classement": "10",
+    "Joueur": "Saliou DIC2"
+}
+
+###
+

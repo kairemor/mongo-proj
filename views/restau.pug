@@ -1,0 +1,13 @@
+extends partials/head
+block content
+    div(class="container")
+        h3 #{title}
+        form(action="api/repas/update", class="form")
+            label(for="day") Entre le jour
+            input(type="text", name="day",id="day", class="form-control")
+            label(for="repas") Entrer le repas du jour
+            input(type="text", name="repas",id="repas", class="form-control")
+            label(for="diner") Entrer le dinner du jour
+            input(type="text", name="diner", id="diner", class="form-control")
+            br
+            input(type="submit", value="Envoyer", class="form-control")
